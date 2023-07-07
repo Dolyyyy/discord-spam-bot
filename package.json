@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "discord.js": "^14.11.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
