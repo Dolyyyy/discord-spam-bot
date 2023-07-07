@@ -64,7 +64,7 @@ const spamBot = {
         console.log(`[${new Date().toLocaleString('fr-FR')}] Client ${index + 1} connected as ${client.user.tag}`);
         setInterval(() => {
           this.sendMessage(client, config.messageToSend);
-        }, 500);
+        }, config.interval);
       });
 
       client.login(config.tokens[index]);

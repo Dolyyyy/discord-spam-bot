@@ -4,5 +4,6 @@
     "entityId":"464356448231489546",
     "messageToSend": "Hi, this spam bot works fine !",
     "messageAsMatrix": false,
+    "interval": 500,
     "author": "Doly - https://codoly.fr"
 }
