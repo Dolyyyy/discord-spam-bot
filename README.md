@@ -27,6 +27,7 @@ The configuration for the spam bot is stored in the `config.json` file. You can 
 - `entityId`: The ID of the user or channel to send the messages to.
 - `messageToSend`: The message to send. If `messageAsMatrix` is set to `true`, the bot will generate a random message as a matrix of characters.
 - `messageAsMatrix`: Set this to `true` if you want the bot to send a randomly generated message as a matrix of characters.
+- `interval`: The interval (in milliseconds) at which the bot will send messages. Adjust this value according to your needs.
 - `author`: Your name or the author of the bot.
 
 After modifying the configuration, you need to restart the spam bot for the changes to take effect.
